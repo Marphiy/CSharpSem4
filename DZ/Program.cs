@@ -48,6 +48,10 @@ void ArrPtint(int[] array)
 
 void Zadacha29()
 {
+    /*Задача 29: Напишите программу, которая задаёт массив из 8 случайных целых чисел 
+    и выводит отсортированный по модулю массив.
+    */
+    
     int size = 8;
     int[] arr = new int[size];
     Random digit = new Random();
